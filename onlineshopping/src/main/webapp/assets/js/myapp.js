@@ -3,14 +3,14 @@ $(function(){
 	switch(menu)
 	{
 		case 'About':
-						$('#About').addClass('nav-item active');
+						$('#about').addClass('active');
 						break;
 		case 'Contact':
-						$('#Contact').addClass('nav-item active');
+						$('#contact').addClass('active');
 						break;
 					
 		default:
-						$('#Home').addClass('nav-item active');
+						$('#home').addClass('active');
 						break;	
 	}
 	
